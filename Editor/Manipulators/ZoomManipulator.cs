@@ -9,7 +9,7 @@ using UnityEngine.UIElements;
 namespace GraphViewBase {
     public class ZoomManipulator : Manipulator {
         public static readonly float DefaultReferenceScale = 1;
-        public static readonly float DefaultMinScale = 0.25f;
+        public static readonly float DefaultMinScale = 0.10f;
         public static readonly float DefaultMaxScale = 1;
         public static readonly float DefaultScaleStep = 0.15f;
 
